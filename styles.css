@@ -191,6 +191,8 @@ Menu
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
 .filter-btn {
   background: transparent;
@@ -252,6 +254,9 @@ Menu
   .photo {
     height: 175px;
   }
+  .btn-container{
+
+  }
 }
 @media screen and (min-width: 1200px) {
   .section-center {
@@ -267,7 +272,7 @@ Menu
 /* animations */
 
 *{
-  transition: 2.4s ;
+  transition: 1.4s ;
 }
 
   /* Define the animation for the children */
