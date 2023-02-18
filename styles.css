@@ -17,7 +17,7 @@ Variables
   --clr-primary-2: hsl(205, 77%, 27%);
   --clr-primary-3: hsl(205, 72%, 37%);
   --clr-primary-4: hsl(205, 63%, 48%);
-  --clr-primary-5: hsl(25 , 63%, 48%);
+  --clr-primary-orange: hsl(25 , 63%, 48%);
   /* primary/main color */
   --clr-primary-5: #49a6e9;
   /* lighter shades of primary color */
@@ -253,9 +253,6 @@ Menu
   }
   .photo {
     height: 175px;
-  }
-  .btn-container{
-
   }
 }
 @media screen and (min-width: 1200px) {
